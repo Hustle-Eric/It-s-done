@@ -3,8 +3,8 @@ import config from "./config"
 
 //创建axios实例
 const axiosIns = axios.create({
-  baseURL:config.baseUrl||'',
-  timeout:config.timeout||4000
+  baseURL:config.baseUrl||"",
+  timeout:config.timeout||5000
 });
 
 //为axios实例添加拦截器

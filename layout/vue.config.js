@@ -1,6 +1,6 @@
 module.exports = {
   lintOnSave:false,
-  devSever:{
+  devServer:{
     open:true
   }
 }
